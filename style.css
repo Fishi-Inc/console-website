@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+    font-size: 1.1rem;
+    color: white;
+}
+
+::-webkit-scrollbar { width: 8px; }
+
+::-webkit-scrollbar-button { background-color: transparent; height: 0; }
+
+::-webkit-scrollbar-track { background-color: #1A1A1C; }
+
+::-webkit-scrollbar-thumb { background-color: #7297E5; border-radius: 8px; }
+
+.website {
+    min-height: 100vh;
+    height: fit-content;
+    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1A1C;
+    padding: 16px;
+}
+
+.console-output {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.console-input {
+    width: fit-content;
+    height: 32px;
+    margin-top: -4px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.console-input-text {
+    background-color: #1A1A1C;
+    width: fit-content;
+    outline: none;
+    border: none;
+    caret-color: transparent;
+    pointer-events: none;
+}
+
+.console-input-before {
+    content: '>';
+    margin-right: 11.5px;
+    color: white;
+}
+
+.blink-cursor {
+    height: 75%;
+    border-left: white 8px solid;
+    animation: blink 1s infinite;
+}
+
+.blue {
+    color: #7297E5;
+}
+
+.green {
+    color: #72e574;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

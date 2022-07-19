@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Type 'help' to get a list of all command">
+    <meta name="author" content="Fishi_Inc">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fishi_Cmd">
+    <meta property="og:url" content="https://console.fishi.fish">
+    <meta property="og:image" content="https://console.fishi.fish/assets/ico/favicon.ico">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Fishi_Cmd">
+    <meta name="twitter:site" content="@fishi-inc">
+    <meta name="twitter:description" content="Type 'help' for a list of supported commands.">
+    <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Fishi_Cmd</title>
+</head>
+<body>
+    <div class="website" onmouseup="selectCommandLine()">
+        <div class="console-output"></div>
+        <div class="console-input">
+            <pre class="console-input-before"><span class="green">user@fishi.fish</span>:<span class="blue">~</span>$</pre>
+            <input type="text" class="console-input-text" autofocus contentEditable>
+            <div class="blink-cursor"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
