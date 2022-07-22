@@ -65,11 +65,13 @@ function executeCommand() {
                 executingCommand = true;
                 switch (command) {
                     case 'clear':
+                        input.value = ''
+                        input.style.width = '0ch'
                         output.innerHTML = '';
                         executingCommand = false;
                         break;
                     case 'exit':
-                        output.innerHTML = '';
+                        output.innerHTML = ''
                         let x = 0
                         input.value = ''
                         input.style.width = '0ch'
@@ -81,7 +83,7 @@ function executeCommand() {
                                 autoScroll()
                             }
                         }
-                        executingCommand = false;
+                        executingCommand = false
                         output.innerHTML += '<pre> </pre>'
                         break;
                     case 'cat':
@@ -102,7 +104,7 @@ function executeCommand() {
                                     output.innerHTML += '<pre>Can\'t find the file you want to view</pre>'
                                 }
                                 output.innerHTML += '<pre> </pre>'
-                                executingCommand = false;
+                                executingCommand = false
                             })
                         break;
                     case 'ls':
@@ -129,7 +131,7 @@ function executeCommand() {
                                         output.innerHTML += '<pre>Can\'t find the file you want to view</pre>'
                                     }
                                     output.innerHTML += '<pre> </pre>'
-                                    executingCommand = false;
+                                    executingCommand = false
                                 })
                         }
                         break;
@@ -137,7 +139,7 @@ function executeCommand() {
                         printCommand()
                         printList(data.output[command])
                         output.innerHTML += '<pre> </pre>'
-                        executingCommand = false;
+                        executingCommand = false
                         break;
                 }
             } else {
