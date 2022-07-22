@@ -9,7 +9,7 @@
                 "                                                                  ",
                 "Type '<span class='blue'>help</span>' for a list of supported commands",
                 ""],
-    "commands": ["clear", "cd", "exit", "help", "ls", "nano", "quit"],
+    "commands": ["clear", "cd", "exit", "help", "ls", "cat", "quit"],
     "output": {
         "help": [
             "<span class='blue'>clear</span>",
@@ -20,8 +20,8 @@
             "   I think you already know what this command does...",
             "<span class='blue'>ls</span>",
             "   Lists the files in the current directory",
-            "<span class='blue'>nano</span>",
-            "   View a file in a text editor",
+            "<span class='blue'>cat</span>",
+            "   View the content of a file",
             "<span class='blue'>exit</span>",
             "   No no no no, you are not allowed to to this! D:"
         ],

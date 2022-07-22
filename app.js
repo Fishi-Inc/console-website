@@ -84,7 +84,7 @@ function executeCommand() {
                         executingCommand = false;
                         output.innerHTML += '<pre> </pre>'
                         break;
-                    case 'nano':
+                    case 'cat':
                         console.log(argument)
                         fetch('./assets/text/console.json')
                             .then(response => response.json())
