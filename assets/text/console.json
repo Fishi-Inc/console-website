@@ -29,12 +29,7 @@
             "about        contact       <span class='blue'>projects</span>/",
             "<span class='blue'>skills</span>/      socials"
         ],
-        "cd": {
-            "socials": [
-                "You are in the about section",
-                "Type '<span class='blue'>ls</span>' to see the files in this directory"
-            ]
-        }
+        "cd": "WIP - pls don't use"
     },
     "secret": [
         "...",
