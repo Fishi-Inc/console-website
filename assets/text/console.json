@@ -19,7 +19,7 @@
             "<span class='blue'>help</span>",
             "   I think you already know what this command does...",
             "<span class='blue'>ls</span>",
-            "   Lists the files in the current directory",
+            "   Lists all files in the current directory",
             "<span class='blue'>cat</span>",
             "   View the content of a file",
             "<span class='blue'>exit</span>",
